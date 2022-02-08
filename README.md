@@ -1,3 +1,6 @@
+# Disclaimer
+Please do not perform this action if unauthorized! This might get you in serious trouble! This is for educational purposes only. Enjoy programming!
+
 # IP-Ping-Verify
 Want to know every device which is connected to the Router (Class C network) ? and that using Python Language? Well I've got you covered here. 
 
@@ -34,3 +37,5 @@ Libraries Used : os
         - Ping statistics for 192.168.50.2:
           Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
         - In this case if Loss = 0, Host is unreachable
+- Now that we have gotten all the outcome, we can do a "arp-a" command in our command prompt/terminal/windows powershell.
+- This will list the IPs discovered (Successful Ping and Request Timeout) , and its subsequent MAC address       
